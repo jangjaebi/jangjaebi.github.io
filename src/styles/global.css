@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 body {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Mono', 'IBM Plex Sans KR', monospace;
 }
