@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "정윤재",
-  title: "컴퓨터공학과 학생 · 팀 프로젝트 '사기전에' 팀장",
+  title: "컴퓨터공학과 학생 · 오픈소스sw프로그래밍 팀 프로젝트 5팀 '사기전에' 팀장",
   description: "정윤재의 개발 포트폴리오",
   accentColor: "#1d4ed8",
   social: {
