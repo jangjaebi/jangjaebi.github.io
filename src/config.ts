@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "정윤재",
+  name: "정윤재 입니다",
   title: "컴퓨터공학과 학생 · 팀 프로젝트 '사기전에' 팀장",
   description: "정윤재의 개발 포트폴리오",
   accentColor: "#1d4ed8",
