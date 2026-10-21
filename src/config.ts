@@ -1,91 +1,45 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "정윤재",
+  title: "컴퓨터공학과 학생 · 팀 프로젝트 '사기전에' 팀장",
+  description: "정윤재의 개발 포트폴리오",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "20231996@edu.hanbat.ac.kr",
+    github: "https://github.com/jangjaebi",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "한밭대학교 컴퓨터공학과 학생입니다. 「오픈소스SW프로그래밍」 수업에서 6명 팀의 팀장을 맡아, 중고거래 사기 위험 신호를 근거와 함께 알려주는 웹 서비스 '사기전에'를 개발하고 있습니다. 기능을 만드는 것만큼, 여러 사람이 GitHub Issue와 Pull Request로 함께 개발할 수 있는 구조와 규칙을 만드는 일에 관심이 많습니다.",
+  skills: ["Python", "FastAPI", "Git", "GitHub", "정규표현식", "HTML/CSS/JS", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "사기전에 — 중고거래 위험 신호 분석 서비스 (팀 프로젝트, 진행 중)",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "중고거래 채팅을 붙여넣으면 안전결제 거부, 빠른 입금 요구, 사칭 URL 같은 위험 신호를 원문 근거와 권장 행동과 함께 보여주는 웹 서비스입니다. 판매자를 사기꾼으로 단정하지 않는 '설명 가능한 위험 분석'을 목표로 합니다. 팀장으로서 데이터 형식 설계, 탐지기 자동 등록 구조(@detector 데코레이터, 전략 패턴), 일정·Issue 관리를 맡았고, URL 사칭·단축 URL 탐지기를 직접 개발했습니다.",
+      link: "https://github.com/OSSTEAM5/sagijeone",
+      skills: ["Python", "FastAPI", "pytest", "GitHub 협업"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "오픈소스SW프로그래밍 5팀 '사기전에'",
+      title: "팀장 · URL / 사기 이력 분석 담당",
+      dateRange: "2026.09 - 현재",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "6명 팀의 역할 분담, 주차별 일정, 팀원별 첫 코드 Issue(시작 방법·완료 기준 포함) 작성",
+        "Issue → 브랜치 → Pull Request → 리뷰 2인 승인 → Merge 협업 규칙 수립 및 main 브랜치 보호 설정",
+        "팀원 간 데이터 형식(Message·Signal) 합의를 주도하고 코드로 반영",
+        "URL 탐지기 개발: 공식 도메인 사칭, 유사 도메인, 단축 URL, IP 주소 링크 탐지 및 오탐(정상 관련 회사 도메인) 수정",
+        "팀원 PR을 로컬에서 직접 실행해 검증하는 리뷰 진행",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "한밭대학교",
+      degree: "컴퓨터공학과",
+      dateRange: "입학년도 - 2023년",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "수강: 오픈소스SW프로그래밍 (Python, Git/GitHub, Docker)",
       ],
     },
   ],
