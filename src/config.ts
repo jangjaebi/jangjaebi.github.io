@@ -37,7 +37,7 @@ export const siteConfig = {
     {
       school: "한밭대학교",
       degree: "컴퓨터공학과",
-      dateRange: "입학년도 - 2023년",
+      dateRange: "2023년 - 현재",
       achievements: [
         "수강: 오픈소스SW프로그래밍 (Python, Git/GitHub, Docker)",
       ],
